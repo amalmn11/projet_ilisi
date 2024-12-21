@@ -1,0 +1,83 @@
+.profile-description {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Légère ombre grise */
+    padding: 20px; /* Marge intérieure */
+}
+
+.card {
+    border-radius: 3px; /* Petit rayon de bordure */
+    border: 1px solid lightgray; /* Bordure grise légère */
+    padding: 15px; /* Marge intérieure */
+}
+
+.profile-desc-row {
+    display: flex;
+    align-items: center;
+}
+
+.profile-desc-row img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+#info{
+    display: inline;
+    width: 85%;
+}
+
+
+.profile-desc-row
+{
+display: flex;
+align-items: flex-start; 
+margin: 20px 0;
+margin-left: 82px;
+  margin-top: 44px;
+}
+.profile-desc-row img{
+width: 50px;
+margin-right: 25px;
+margin-top: 5px;
+}
+.profile-desc-row div{
+    width: 83%;
+    display: inline-block;
+}
+
+#pp
+{
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 75%;
+}
+button{
+    display: inline-block;
+    position: relative;
+    top: -110px;
+}
+
+#icon
+{
+    display: inline-block;
+    position: relative;
+    top: -105px;
+}
+
+hr {
+    border: none; /* Supprime la bordure par défaut */
+    height: 2px; /* Hauteur de la ligne */
+    background-color: rgba(0, 0, 0, 0.2); /* Couleur de la ligne (foncée) */
+    margin: 15px 0; /* Marge autour de la ligne */
+}
+
+hr::before {
+    content: ""; /* Ajoutez un contenu vide pour éviter que la ligne ne soit affichée */
+    display: block; /* Affiche la ligne en tant que bloc */
+    width: 100%; /* Largeur de la ligne */
+    height: 1px; /* Hauteur de la ligne */
+    background-color: rgba(255, 255, 255, 0.7); /* Couleur de la ligne (plus claire) */
+    margin-top: -1px; /* Marge négative pour empêcher le chevauchement */
+}
